@@ -15,9 +15,6 @@ export default function Header() {
               Without InternationalizationLink
             </Link>
           </li>
-          <li>
-            <Link href={"/with-lang-param"}>With lang param</Link>
-          </li>
         </ul>
         <div className="flex gap-2 items-center">
           <LocaleSwitcher />
