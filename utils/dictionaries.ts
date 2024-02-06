@@ -14,6 +14,16 @@ const dictionaryPaths: DictionaryPaths = {
     es: () =>
       import("../dictionaries/es/home.json").then((module) => module.default),
   },
+  "internationalization-link": {
+    en: () =>
+      import("../dictionaries/en/without-Internationalization-link.json").then(
+        (module) => module.default
+      ),
+    es: () =>
+      import("../dictionaries/es/without-Internationalization-link.json").then(
+        (module) => module.default
+      ),
+  },
 };
 
 export const getDictionary = async (

@@ -1,0 +1,7 @@
+{
+  "title": "Sin Enlace de Internacionalización",
+  "content": "para solucionar esto hay 2 opciones, una es crear un componente que usando usePathname() obtenga el y pasarle el valor al Link href={`/${getLocalePath(pathName)}/${href}`}. La otra opcion es obtener el parametro de idioma en el componente padre y pasarselo al componente hijo, en este caso el Link.",
+  "view": "Vea los 2 ejemplos en codigo aqui:",
+  "internationalizationLink": "Con Enlace de Internacionalización",
+  "withParams": "Con parámetros"
+}

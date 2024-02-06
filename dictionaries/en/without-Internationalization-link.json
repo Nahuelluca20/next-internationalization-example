@@ -1,0 +1,7 @@
+{
+  "title": "Without Internationalization Link",
+  "content": "To solve this, there are 2 options. One is to create a component that uses usePathname() to obtain the pathname and pass its value to the Link href={/${getLocalePath(pathName)}/${href}}. The other option is to obtain the language parameter in the parent component and pass it to the child component, in this case, the Link.",
+  "view": "See the 2 code examples here:",
+  "internationalizationLink": "With Internationalization Link",
+  "withParams": "With Parameters"
+}
