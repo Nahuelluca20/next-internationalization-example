@@ -1,4 +1,7 @@
 {
   "title": "Hello World",
-  "subtitle": "This is a test of application internationalization with NextJS"
+  "subtitle": "This is a test of application internationalization with NextJS",
+  "content": "En this page /home, the language option is obtained through the URL parameters. But here's an issue, if we add a link that goes to /without-Internationalization-link, you'll notice that the language is not maintained, this is because we're not passing the language as a parameter. To solve this, we can use the usePathname hook from nextjs to get the current language and pass it as a parameter in the link.",
+  "swithLanguage": "Change the language and then click on the link below",
+  "link": "Go to page"
 }
