@@ -17,7 +17,7 @@ export default async function WithoutInternationalizationLink({
     <main className="space-y-5">
       <h1 className="text-2xl font-bold">{dictionary.title}</h1>
       <p>{dictionary.content}</p>
-      <div className="flex gap-2 items-center">
+      <div className="md:flex gap-2 items-center">
         <p>{dictionary.view}</p>
         <div className="flex gap-2 items-center">
           <Link
