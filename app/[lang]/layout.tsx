@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "max-h-screen bg-background font-sans antialiased",
+          "max-h-fit lg:max-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
@@ -36,7 +36,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <div className="max-w-[1024px] mx-auto mt-10">{children}</div>
+          <div className="px-5 max-w-[1024px] mx-auto mt-10">{children}</div>
           <Footer />
         </ThemeProvider>
       </body>
