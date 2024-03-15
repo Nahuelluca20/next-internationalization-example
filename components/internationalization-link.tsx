@@ -1,14 +1,7 @@
 "use client";
+import { getLocalePath } from "@/utils/getLocale";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-export function getLocalePath(pathName: string) {
-  if (pathName.startsWith("/es")) {
-    return "es/";
-  } else {
-    return "en/";
-  }
-}
 
 export default function InternationalizationLink({
   href,

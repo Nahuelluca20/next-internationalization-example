@@ -1,4 +1,3 @@
-import "server-only";
 import { Locale } from "@/i18n-config";
 
 interface DictionaryPaths {

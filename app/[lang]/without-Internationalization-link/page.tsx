@@ -50,6 +50,9 @@ export default async function WithoutInternationalizationLink({
         <Button asChild variant={"secondary"}>
           <Link href={`/${params.lang}/`}>With params</Link>
         </Button>
+        <Button asChild variant={"secondary"}>
+          <Link href={`/${params.lang}/client-lang`}>Client params</Link>
+        </Button>
       </div>
     </main>
   );
