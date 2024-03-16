@@ -1,9 +1,5 @@
 "use client";
 
-import { getDictionary } from "@/utils/dictionaries";
-import { getLocale } from "@/utils/getLocale";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import useTranslate from "@/hooks/useTranslate";
 
 export default function Page() {
