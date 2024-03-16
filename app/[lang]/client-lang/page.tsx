@@ -4,18 +4,10 @@ import { getDictionary } from "@/utils/dictionaries";
 import { getLocale } from "@/utils/getLocale";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import useTranslate from "@/hooks/useTranslate";
 
 export default function Page() {
-  const pathName = usePathname();
-
-  const [dictionary, setDictioary] = useState();
-  const getClientDictionary = async () => {
-    setDictioary(await getDictionary("home", getLocale(pathName)));
-  };
-
-  useEffect(() => {
-    getClientDictionary();
-  }, []);
+  const dictionary = useTranslate("home");
 
   return (
     <div>
